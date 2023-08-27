@@ -1,0 +1,8 @@
+{
+	"name": "Weather Front End",
+	"dockerComposeFile": [
+		"docker-compose.yml"
+	],
+	"service": "frontend",
+	"workspaceFolder": "/app"
+}

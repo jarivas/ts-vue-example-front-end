@@ -1,0 +1,12 @@
+services:
+  frontend:
+    build: .
+    volumes:
+      - .:/app
+    networks:
+      - backend
+networks:
+  backend:
+    name: weather_default
+    external: true
+    
